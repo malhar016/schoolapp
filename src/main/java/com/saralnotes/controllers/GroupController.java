@@ -55,7 +55,7 @@ public class GroupController {
 		}
 		return restResponse;
 	}
-	
+	//need to work on this..
 	@RequestMapping(value = "/getGroupByCriteria", method = RequestMethod.POST)
 	public RestResponse getUserByCriteria(@PathVariable("keyvalue") Map<String, String> key)
 	{
